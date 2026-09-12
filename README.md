@@ -1,23 +1,32 @@
-# 🚀 Quantitative AI & Machine Learning Portfolio
+# 🚀 Advanced Quantitative AI & Machine Learning Portfolio
 
-A B.Tech Mathematics & Computing portfolio featuring production-grade machine learning forecasting engines and advanced Generative AI orchestration pipelines.
+A specialized asset portfolio leveraging a strong foundational background in **B.Tech Mathematics & Computing** to engineer production-grade machine learning pipelines and token-optimized Generative AI orchestration architectures.
 
 ---
 
 ## 📈 Project 1: Financial Time-Series Forecasting Engine
+**Tech Stack:** `Python`, `Scikit-Learn`, `Pandas`, `NumPy`, `Matplotlib`, `yFinance`
 
-### 🔍 Objective
-Built an end-to-end Machine Learning pipeline that extracts historical equity data, engineers technical mathematical indicators, and uses ensemble learning to forecast asset price closures.
+### 🔍 Core Problem & Logic
+Built an end-to-end Machine Learning prediction framework designed to ingest financial equities, engineer technical indicators, and run ensemble models to predict asset price movements.
 
-### ⚙️ Technical Architecture & Workflow
-- **Data Acquisition:** Automated ingestion of historical market data spanning 10 years via the Yahoo Finance API (`yfinance`).
-- **Feature Engineering:** Developed custom statistical and quantitative signals using `Pandas` and `NumPy`, including:
-  - 10-day Simple Moving Average (SMA)
-  - 5-day Exponential Moving Average (EMA)
-  - Daily Percentage Returns
-  - Rolling Historical Volatility
-- **Validation Strategy:** Implemented a strict **sequential chronological split** (80% Train / 20% Test) instead of a random train-test shuffle. This completely eliminates data leakage and preserves the temporal integrity required for time-series math.
-- **Model Training:** Deployed a `Scikit-Learn` Random Forest Regressor optimized with 100 estimators.
+### ⚙️ Engineering Workflow
+- **Data Ingestion Pipeline:** Automated historical equity data mining via the Yahoo Finance framework.
+- **Mathematical Feature Engineering:** Handled dense numerical arrays to build quantitative features, including 10-day Simple Moving Average (SMA), 5-day Exponential Moving Average (EMA), daily fractional returns, and a rolling standard deviation volatility index.
+- **Data Leakage Mitigation:** Implemented a strict **chronological sequential split** (80% Train / 20% Test) rather than a random shuffle. This critical design preserves the temporal mathematical integrity required for valid time-series validation.
+- **Predictive Modelling:** Deployed a Scikit-Learn Random Forest Regressor optimized with 100 estimators.
 
-### 📊 Performance Visualization
-The model automatically outputs continuous predictions evaluated against baseline test trends. The saved evaluation visualization is archived locally as `prediction_chart.png`.
+---
+
+## 🤖 Project 2: Free Intelligent Document Assistant (RAG Pipeline)
+**Tech Stack:** `Python`, `Meta Llama 3.3`, `Groq Cloud API`, `Streamlit`, `PyPDF`
+
+### 🔍 Core Problem & Logic
+Architected a highly scalable, hardware-agnostic Retrieval-Augmented Generation (RAG) system capable of parsing unstructured document matrices (such as academic volumes) and delivering factually grounded conversational insights.
+
+### ⚙️ Engineering Workflow
+- **Lean Extraction Architecture:** Re-engineered the text loader pipeline using `PyPDF` directly, avoiding heavy legacy AI framework dependencies to remain stable under advanced execution runtimes.
+- **Token Optimization & Budget Guardrails:** Implemented a lightweight native keyword-matching extraction index. By isolating only the top relevant text segments based on user query tokens, the input payload was dropped to roughly 1,500 tokens, successfully bypassing cloud rate limit rejections (Error 413) on free service tiers.
+- **Orchestration Layer:** Structured deterministic prompt engineering paradigms to isolate context boundaries and prevent LLM hallucinations. Integrated Meta's Llama 3.3 model via Groq's high-performance cloud clusters.
+- **User Interface Deployment:** Wrapped the backend processing inside an interactive web browser dashboard utilizing **Streamlit**.
+
