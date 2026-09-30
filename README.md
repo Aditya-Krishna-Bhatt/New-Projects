@@ -1,6 +1,6 @@
-# 🚀 Advanced Quantitative AI & Machine Learning Portfolio
+# 🚀 AI & Machine Learning Projects
 
-A specialized asset portfolio leveraging a strong foundational background in **B.Tech Mathematics & Computing** to engineer production-grade machine learning pipelines and token-optimized Generative AI orchestration architectures.
+<!--A specialized asset portfolio leveraging a strong foundational background in **B.Tech Mathematics & Computing** to engineer production-grade machine learning pipelines and token-optimized Generative AI orchestration architectures.-->
 
 ---
 
@@ -8,7 +8,7 @@ A specialized asset portfolio leveraging a strong foundational background in **B
 **Tech Stack:** `Python`, `Scikit-Learn`, `Pandas`, `NumPy`, `Matplotlib`, `yFinance`
 
 ### 🔍 Core Problem & Logic
-Built an end-to-end Machine Learning prediction framework designed to ingest financial equities, engineer technical indicators, and run ensemble models to predict asset price movements.
+Built an end-to-end Machine Learning prediction framework designed to ingest financial equities' data, engineer technical indicators, and run ensemble models to predict asset price movements.
 
 ### ⚙️ Engineering Workflow
 - **Data Ingestion Pipeline:** Automated historical equity data mining via the Yahoo Finance framework.
@@ -30,3 +30,10 @@ Architected a highly scalable, hardware-agnostic Retrieval-Augmented Generation 
 - **Orchestration Layer:** Structured deterministic prompt engineering paradigms to isolate context boundaries and prevent LLM hallucinations. Integrated Meta's Llama 3.3 model via Groq's high-performance cloud clusters.
 - **User Interface Deployment:** Wrapped the backend processing inside an interactive web browser dashboard utilizing **Streamlit**.
 
+### ⚽ Project 3: Football Expected Goals (xG) Shot Predictor
+An XGBoost machine learning model trained on 21,153 StatsBomb match events to calculate the statistical probability of a shot resulting in a goal using coordinate vector geometry.
+👉 **[View Project Folder & Code](./Football_xG_Predictor/)**
+
+### 🪐 Project 4: Deep Space Galaxy Morphology Classifier
+A PyTorch Convolutional Neural Network (CNN) trained on 6,354 real Sloan Digital Sky Survey images to classify galaxy structures with 85% accuracy.
+👉 **[View Project Folder & Code](./galaxy_shape_predictor/)**
